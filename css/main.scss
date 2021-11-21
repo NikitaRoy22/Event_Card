@@ -10,23 +10,44 @@
   
   body {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(215, 230, 215);
-    /* background-image: url(../images/pexels-ryan-holloway-243989.jpg); */
+    background-image: url(../images/pexels-thibault-trillet-167636.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 0 1.5rem;
-    /* -webkit-filter: blur(5px); */
+  }
+
+  .upcoming-title {
+    color: whitesmoke; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 100px; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+  }
+
+  .section {
+      height: fit-content;
+      padding: 100px 0px 250px 130px;
+      margin-left: 10px;
   }
   
   .container {
-    width: 100%;
+    width: 90%;
+    height: 650px;
     max-width: 98rem;
     padding: 5rem;
+    margin-top: 100px;
     background-color: #fff;
     box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-radius: 0.8rem;
     box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.5);
