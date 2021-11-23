@@ -138,10 +138,11 @@ body {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    padding: 80px 0px 0px 90px;
   }
 }
 
-@media screen and (max-width: 1086px) {
+@media screen and (max-width: 1300px) {
   .container {
     max-width: 80rem;
     padding: 2.5;
@@ -151,7 +152,7 @@ body {
             flex-direction: column;
   }
   .upcoming-title {
-    font-size: 70px;
+    font-size: 65px;
   }
   .event-info {
     margin: 50px 50px;
@@ -168,14 +169,13 @@ body {
 @media screen and (max-width: 897px) {
   .container {
     max-width: 70rem;
-    padding: 2.5;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   .upcoming-title {
-    font-size: 70px;
+    font-size: 60px;
   }
   .event-image {
     min-width: 30rem;
@@ -186,6 +186,51 @@ body {
   .event-info {
     margin-top: 0;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .event-info {
+    width: 100%;
+  }
+  .upcoming-title {
+    font-size: 45px;
+  }
+  .container {
+    width: 25em;
+  }
+  .event-image {
+    min-width: 20rem;
+    max-width: 20rem;
+    min-height: 20rem;
+    max-height: 20rem;
+    -webkit-transform: translate(0, -6rem);
+            transform: translate(0, -6rem);
+  }
+  .section {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .upcoming-title {
+    font-size: 40px;
+  }
+  .section {
+    padding-left: 0px;
+    margin-left: 0;
+  }
+  .event-title {
+    font-size: 30px;
+  }
+  .event-date {
+    font-size: 5px;
+  }
+  .event-description {
+    font-size: 17px;
+  }
+  .container {
+    padding: 2.5rem 3rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
